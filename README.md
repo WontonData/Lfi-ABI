@@ -3,7 +3,8 @@
 ## Table of Contents
 - [DateString](#datestring)
 - [TrancheFactory](#tranchefactory)
-
+- [WCFX](#wcfx)
+- [UserProxy](#userproxy)
 ## DateString
 ### Testnet
 ```
