@@ -1008,11 +1008,11 @@ cfxtest:acfr36z84u1t9km1j3c3ppb0tcas88r5se30k3e8bx
 ## GLD
 ### Testnet
 ```
-cfxtest:acak2d1reg7h33r1pahp1rf1unu3w196s2ggejty5s
+cfxtest:acfre7k3dpjxaem6ujerw4bk4t2u503wgusmfr65xg
 ```
 
 ```
-0x809c0EED21Ba7Ce5B7600ecBb4b782e1995fFc76
+
 ```
 ### Mainnet
 ```
@@ -1030,7 +1030,7 @@ cfxtest:acfphmx1j2byjpzntp80wwrd3v4earj16ac5dgrkn6
 ```
 
 ```
-0x8aC3Aa7746034432Ab7b3D6949A3cC74403517E0
+
 ```
 ### Mainnet
 ```
