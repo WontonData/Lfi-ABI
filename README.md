@@ -1044,11 +1044,11 @@ cfxtest:acfphmx1j2byjpzntp80wwrd3v4earj16ac5dgrkn6
 ## YVaultAssetProxy
 ### Testnet
 ```
-cfxtest:acak2d1reg7h33r1pahp1rf1unu3w196s2ggejty5s
+cfxtest:acaerfrd3m80tasx02ghkgwywkerbzdrup0dzt0x9s
 ```
 
 ```
-0x809c0EED21Ba7Ce5B7600ecBb4b782e1995fFc76
+
 ```
 ### Mainnet
 ```
