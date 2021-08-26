@@ -5,6 +5,9 @@
 - [TrancheFactory](#tranchefactory)
 - [WCFX](#wcfx)
 - [UserProxy](#userproxy)
+- [GLD](#gld)
+- [Yault-xGLD](#yault-xGLD)
+- [YVaultAssetProxy](#YVaultAssetProxy)
 ## DateString
 ### Testnet
 ```
