@@ -1825,7 +1825,7 @@ cfxtest:acav86b6evga8h1vs0v4nhrev326912xspn6trz4gg
 ## YVaultAssetProxy
 ### Testnet
 ```
-cfxtest:acaerfrd3m80tasx02ghkgwywkerbzdrup0dzt0x9s
+cfxtest:acadwtrw299w0dg40m218nkrn9bkjzmg5jjd822hg1
 ```
 
 ```
