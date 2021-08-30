@@ -35,6 +35,7 @@ trancheBytecodeHash:
 - [USDA](#usda)
 - [Vault-xUSDA](#Vault-xusda)
 - [YVaultAssetProxy](#yvaultassetproxy)
+- [eP-eY](#ep-ey)
 
 ## InterestTokenFactory
 ### Testnet
@@ -2528,4 +2529,16 @@ cfxtest:acfkmkfse864y16cn9261y5j2785d75rmeed68hskd
 ```
 </details>
 </br>
+
+## eP-eY
+* expiration: 1633023038
+* wpAddress:`cfxtest:acfkmkfse864y16cn9261y5j2785d75rmeed68hskd`
+### eP - Tranche 
+```
+cfxtest:acc9k14s6k76wau198gu0yy8wyfe53kdu2cr19tkmv
+```
+### eY - InterestToken
+```
+cfxtest:acegc96nmps0hb7we2zb29d5eth1f5fcv6bu6jwp3j
+```
 
