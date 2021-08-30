@@ -1,3 +1,29 @@
+# Relation
+
+## constructor
+
+![image-20210830152749449](https://gitee.com/EYEandEYE/blog_img/raw/master/img/image-20210830152749449.png)
+
+trancheBytecodeHash:
+
+```
+0x33353283da9febabe800962de594ae7c9f274743d76e7af5f88afe3e6ea5a94a
+```
+
+
+
+
+
+## function
+
+![image-20210830154407852](https://gitee.com/EYEandEYE/blog_img/raw/master/img/image-20210830154407852.png)
+
+
+
+![image-20210830154931980](https://gitee.com/EYEandEYE/blog_img/raw/master/img/image-20210830154931980.png)
+
+
+
 # Address & ABI
 
 ## Table of Contents
@@ -163,10 +189,11 @@ cfxtest:aceexxjxcrf9m4fgfpk5rrr23nv2mr5pky72jxzsga
 ## TrancheFactory
 ### Testnet
 ```
-cfxtest:acfab1dxxam2xxtf9ku1gh5vjkhah8uvjp8khytsgw
+cfxtest:acgk31mt25khe2mhc6ak60c1u0c49wa5xjjnrrddbv
 ```
 
 ### Mainnet
+
 ```
 
 ```
@@ -678,349 +705,366 @@ cfxtest:acbbuu2y4k736279c40cabjfwcdfp4y4x66eep7ee1
 
 ## UserProxy
 ### Testnet
+
 ```
-cfxtest:acfr36z84u1t9km1j3c3ppb0tcas88r5se30k3e8bx
+cfxtest:acc8k6yz4s9fxu85j397b1k1je1jzferxpgr65ngzx
 ```
 
 ```
 
 ```
 ### Mainnet
+
 ```
 
 ```
 ### ABI
+
 <details>
 <summary>ABI</summary>
 
 ```json
 [
-    {
-      "inputs": [
-        {
-          "internalType": "contract IWETH",
-          "name": "_weth",
-          "type": "address",
-          "networkId": 1
-        },
-        {
-          "internalType": "address",
-          "name": "__trancheFactory",
-          "type": "address",
-          "networkId": 1
-        },
-        {
-          "internalType": "bytes32",
-          "name": "__trancheBytecodeHash",
-          "type": "bytes32"
-        }
-      ],
-      "stateMutability": "nonpayable",
-      "type": "constructor",
-      "name": "constructor"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "who",
-          "type": "address",
-          "networkId": 1
-        }
-      ],
-      "name": "authorize",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address",
-          "networkId": 1
-        }
-      ],
-      "name": "authorized",
-      "outputs": [
-        {
-          "internalType": "bool",
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "who",
-          "type": "address",
-          "networkId": 1
-        }
-      ],
-      "name": "deauthorize",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "who",
-          "type": "address",
-          "networkId": 1
-        }
-      ],
-      "name": "isAuthorized",
-      "outputs": [
-        {
-          "internalType": "bool",
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "isFrozen",
-      "outputs": [
-        {
-          "internalType": "bool",
-          "name": "",
-          "type": "bool"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "owner",
-      "outputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address",
-          "networkId": 1
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "who",
-          "type": "address",
-          "networkId": 1
-        }
-      ],
-      "name": "setOwner",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "weth",
-      "outputs": [
-        {
-          "internalType": "contract IWETH",
-          "name": "",
-          "type": "address",
-          "networkId": 1
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "stateMutability": "payable",
-      "type": "receive"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "bool",
-          "name": "_newState",
-          "type": "bool"
-        }
-      ],
-      "name": "setIsFrozen",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "_amount",
-          "type": "uint256"
-        },
-        {
-          "internalType": "contract IERC20",
-          "name": "_underlying",
-          "type": "address",
-          "networkId": 1
-        },
-        {
-          "internalType": "uint256",
-          "name": "_expiration",
-          "type": "uint256"
-        },
-        {
-          "internalType": "address",
-          "name": "_position",
-          "type": "address",
-          "networkId": 1
-        },
-        {
-          "components": [
-            {
-              "internalType": "contract IERC20Permit",
-              "name": "tokenContract",
-              "type": "address"
-            },
-            {
-              "internalType": "address",
-              "name": "who",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "amount",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "expiration",
-              "type": "uint256"
-            },
-            {
-              "internalType": "bytes32",
-              "name": "r",
-              "type": "bytes32"
-            },
-            {
-              "internalType": "bytes32",
-              "name": "s",
-              "type": "bytes32"
-            },
-            {
-              "internalType": "uint8",
-              "name": "v",
-              "type": "uint8"
-            }
-          ],
-          "internalType": "struct UserProxy.PermitData[]",
-          "name": "_permitCallData",
-          "type": "tuple[]"
-        }
-      ],
-      "name": "mint",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "payable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "_expiration",
-          "type": "uint256"
-        },
-        {
-          "internalType": "address",
-          "name": "_position",
-          "type": "address",
-          "networkId": 1
-        },
-        {
-          "internalType": "uint256",
-          "name": "_amountPT",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "_amountYT",
-          "type": "uint256"
-        },
-        {
-          "components": [
-            {
-              "internalType": "contract IERC20Permit",
-              "name": "tokenContract",
-              "type": "address"
-            },
-            {
-              "internalType": "address",
-              "name": "who",
-              "type": "address"
-            },
-            {
-              "internalType": "uint256",
-              "name": "amount",
-              "type": "uint256"
-            },
-            {
-              "internalType": "uint256",
-              "name": "expiration",
-              "type": "uint256"
-            },
-            {
-              "internalType": "bytes32",
-              "name": "r",
-              "type": "bytes32"
-            },
-            {
-              "internalType": "bytes32",
-              "name": "s",
-              "type": "bytes32"
-            },
-            {
-              "internalType": "uint8",
-              "name": "v",
-              "type": "uint8"
-            }
-          ],
-          "internalType": "struct UserProxy.PermitData[]",
-          "name": "_permitCallData",
-          "type": "tuple[]"
-        }
-      ],
-      "name": "withdrawWeth",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "deprecate",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    }
-  ]
+  {
+    "inputs": [
+      {
+        "internalType": "contract IWETH",
+        "name": "_weth",
+        "type": "address",
+        "networkId": 1
+      },
+      {
+        "internalType": "address",
+        "name": "__trancheFactory",
+        "type": "address",
+        "networkId": 1
+      },
+      {
+        "internalType": "bytes32",
+        "name": "__trancheBytecodeHash",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor",
+    "name": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "SPONSOR",
+    "outputs": [
+      {
+        "internalType": "contract SponsorWhitelistControl",
+        "name": "",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "who",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "name": "authorize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "name": "authorized",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "who",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "name": "deauthorize",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "who",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "name": "isAuthorized",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "isFrozen",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "who",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "name": "setOwner",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "weth",
+    "outputs": [
+      {
+        "internalType": "contract IWETH",
+        "name": "",
+        "type": "address",
+        "networkId": 1
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "receive"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "_newState",
+        "type": "bool"
+      }
+    ],
+    "name": "setIsFrozen",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_amount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "contract IERC20",
+        "name": "_underlying",
+        "type": "address",
+        "networkId": 1
+      },
+      {
+        "internalType": "uint256",
+        "name": "_expiration",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "_position",
+        "type": "address",
+        "networkId": 1
+      },
+      {
+        "components": [
+          {
+            "internalType": "contract IERC20Permit",
+            "name": "tokenContract",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "who",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "r",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "s",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint8",
+            "name": "v",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct UserProxy.PermitData[]",
+        "name": "_permitCallData",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "mint",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_expiration",
+        "type": "uint256"
+      },
+      {
+        "internalType": "address",
+        "name": "_position",
+        "type": "address",
+        "networkId": 1
+      },
+      {
+        "internalType": "uint256",
+        "name": "_amountPT",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_amountYT",
+        "type": "uint256"
+      },
+      {
+        "components": [
+          {
+            "internalType": "contract IERC20Permit",
+            "name": "tokenContract",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "who",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "expiration",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "r",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "s",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint8",
+            "name": "v",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct UserProxy.PermitData[]",
+        "name": "_permitCallData",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "withdrawWeth",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "deprecate",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
 ```
 </details>
 </br>
@@ -1375,13 +1419,14 @@ cfxtest:acgfgvhxwfeduu07a6pf6u538aj7at2veasb6fxhu0
 </details>
 </br>
 
+## Vault-xUSDA
 
-## Yault-xUSDA
 ### Testnet
 ```
-cfxtest:acav86b6evga8h1vs0v4nhrev326912xspn6trz4gg
+cfxtest:acfj6eu4w68d0732kn77afa9agrj9uzpmpeyvsue5g
 ```
 ### Mainnet
+
 ```
 
 ```
@@ -1395,7 +1440,7 @@ cfxtest:acav86b6evga8h1vs0v4nhrev326912xspn6trz4gg
     "inputs": [
       {
         "internalType": "address",
-        "name": "_addr",
+        "name": "_underlyTokenAddr",
         "type": "address",
         "networkId": 1
       }
@@ -1719,7 +1764,7 @@ cfxtest:acav86b6evga8h1vs0v4nhrev326912xspn6trz4gg
     "inputs": [
       {
         "internalType": "address",
-        "name": "_addr",
+        "name": "_underlyTokenAddr",
         "type": "address",
         "networkId": 1
       }
@@ -1744,7 +1789,13 @@ cfxtest:acav86b6evga8h1vs0v4nhrev326912xspn6trz4gg
       }
     ],
     "name": "deposit",
-    "outputs": [],
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
     "stateMutability": "nonpayable",
     "type": "function"
   },
@@ -1825,7 +1876,7 @@ cfxtest:acav86b6evga8h1vs0v4nhrev326912xspn6trz4gg
 ## YVaultAssetProxy
 ### Testnet
 ```
-cfxtest:acadwtrw299w0dg40m218nkrn9bkjzmg5jjd822hg1
+cfxtest:acfkmkfse864y16cn9261y5j2785d75rmeed68hskd
 ```
 
 ```
