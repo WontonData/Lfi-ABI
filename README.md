@@ -33,7 +33,7 @@ trancheBytecodeHash:
 - [WCFX](#wcfx)
 - [UserProxy](#userproxy)
 - [USDA](#usda)
-- [Yault-xUSDA](#yault-xusda)
+- [Vault-xUSDA](#Vault-xusda)
 - [YVaultAssetProxy](#yvaultassetproxy)
 
 ## InterestTokenFactory
