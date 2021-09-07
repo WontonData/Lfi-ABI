@@ -32,9 +32,9 @@ trancheBytecodeHash:
 - [Vault-xUSDA](#Vault-xusda)
 - [YVaultAssetProxy](#yvaultassetproxy)
 - [eP-eY](#ep-ey)
-- [BalancerYault](#balanceryault)
+- [BalancerVault](#balancervault)
 - [CCPoolFactory](#ccpoolfactory)
-## BalancerYault
+## BalancerVault
 ```
 cfxtest:acfgzsywmpxbb7tkf4j8jvuejc3ffhuvjycga9rjhy
 ```
