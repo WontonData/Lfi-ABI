@@ -4157,7 +4157,9 @@ cfxtest:acfv7tx52ma6wzwweybte0e6avvyu42p06zjgp5z4k
 <summary>ABI</summary>
 
 ```json
-[
+[    
+    {
+      "inputs": [
         {
           "internalType": "contract IERC20",
           "name": "_underlying",
