@@ -2,7 +2,7 @@
 
 ## ABI
 - [BalancerVault](#balancervault)
-- [CCPool](#ccpoolfactory)
+- [CCPool](#ccpool)
 - [WeightPool](#weighepool)
 - [eP - Tranche](#ep-tranche)
 - [eY - InterestToken](#ey-interesttoken)
