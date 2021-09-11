@@ -1,7 +1,7 @@
 # InterestTokenFactory
 ## Testnet
 ```
-cfxtest:accf9dtkkvgh33be9jspt95kvdn2r80veuazn6k0uy
+CFXTEST:TYPE.CONTRACT:ACEGAVKBWPW7FCB3ZYVTECR8ESXZ3YGJ968B4MXPDM
 ```
 ## ABI
 ```json
