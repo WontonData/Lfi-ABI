@@ -17,8 +17,6 @@
 
   #### token
 
-  - [**cDAI-11SEP21**](./token/cDAI-11SEP21-1631373600.md)
-
   - [**cDAI-14SEP21**](./token/cDAI-14SEP21-1631635200.md)
 
 
