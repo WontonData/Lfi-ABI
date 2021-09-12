@@ -19,6 +19,23 @@
 
 - [UserProxy](./contracts/UserProxy.md)
 
+- [BalancerVault](./contracts/BalancerVault.md)
+
+- [CCPoolFactory](./contracts/CCPoolFactory.md)
+
+- [WeightPoolFactory](./contracts/WeightPoolFactory.md)
+
+# only ABI
+
+- [CCPool](./contracts/CCPoolFactory.md)
+
+- [WeightPool](./contracts/WeightPool.md)
+
+- [Tranche-Pt](./contracts/Tranche.md)
+
+- [InterestToken-Yt](./contracts/InterestToken.md)
+
+# Tranche&Pool - Info
 - ### cDAI
   [uToken](./contracts/cDAI-uToken.md)
 
