@@ -49,7 +49,11 @@
   * [11SEP22- 1 Years](./pool-info/cDAI-11SEP22.md)
 
 ### cUSDC
-  FVaultAssetProxy: 
+  Address：`cfxtest:acceyh5y7xjz0fyke7g2e2c3vzz1m2k4nj0m9zwvcv`
+
+  FVaultAssetProxy: `cfxtest:acb0zwg0gthjzdjtveenbht3wz0bkt8v2jn9tx3jnv`
+
+  * [12SEP22- 1 Years](./pool-info/cUSDC-12SEP22.md) 
 <!-- - ### cDAI
   [uToken](./contracts/cDAI-uToken.md)
 
