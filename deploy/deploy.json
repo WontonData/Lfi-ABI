@@ -39,14 +39,14 @@
 				"pToken": "cfxtest:acb1cjg4c3kef68vh6m8umdpw4j5g1tj4yhmat9wua",
 				"yToken": "cfxtest:acc7sk21kuf4y22x48f6f3gpx8wuec2ymp2cw5vau7"
 			}
+		],
+		"pool": [
+			{
+				"ptPool": "cfxtest:acgzk2uj5kvrbg8t600bgnyeema7zm9tvevbtnmbux",
+				"ptId": "0x8d54e208da62d09bcfe5ac132e842281daabef89000200000000000000000002",
+				"ytPool": "cfxtest:aca4g27nks6tcvm9gv1udfjyjt99hye2rufw2dv7n0",
+				"ytId": "0x81a363ab4bb8f1455f346f01951443fff3d0986c000200000000000000000003"
+			}
 		]
-	},
-	"pool": [
-		{
-			"ptPool": "cfxtest:acgzk2uj5kvrbg8t600bgnyeema7zm9tvevbtnmbux",
-			"ptId": "0x8d54e208da62d09bcfe5ac132e842281daabef89000200000000000000000002",
-			"ytPool": "cfxtest:aca4g27nks6tcvm9gv1udfjyjt99hye2rufw2dv7n0",
-			"ytId": "0x81a363ab4bb8f1455f346f01951443fff3d0986c000200000000000000000003"
-		}
-	]
+	}
 }
