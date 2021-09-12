@@ -22,12 +22,15 @@
 * unitSec(t-stretch) : `220898664` (7 years)
 * wp: `TYPE.CONTRACT:ACHK35ZG4ATMBA1PP8T4W7W4C2JM71G77PEBCMSZ13`
 * index: pt / base
-
 * init： 2000 cDAI
-#### PoolAddr:
-`cfxtest:acfvwuhctkw3zbu41z5w5dnc86cm9s9rpe7s23sxnn`
-#### Pool id: 
-`0x86ae2e0b6a0e68bd4108e271da10d7f4741fe04300020000000000000000000a`
+### PoolAddr:
+```
+cfxtest:acfvwuhctkw3zbu41z5w5dnc86cm9s9rpe7s23sxnn
+```
+### Pool id: 
+```
+0x86ae2e0b6a0e68bd4108e271da10d7f4741fe04300020000000000000000000a
+```
 
 
 ## WeightPool-yt
@@ -35,11 +38,11 @@
 * Index: yt / base
 * init： 100 : 16
 
-#### PoolAddr: 
+### PoolAddr: 
 ```
 cfxtest:aceaaef25r0c0r4srvssj78kasut5mzkb6bu9p777s
 ```
-#### Pool id:
+### Pool id:
 ```
 0x8dd0223177b135f650bd4828da0f46f0e99f4bc700020000000000000000000b
 ```
