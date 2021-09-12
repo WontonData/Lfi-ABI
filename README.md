@@ -44,7 +44,7 @@
 ### cDAI
   Address: `cfxtest:achnwtecdj2fxkndf0rz142fuc8am9uf2udvbb5yff`
 
-  FVaultAssetProxy: `cfxtest:ACHK35ZG4ATMBA1PP8T4W7W4C2JM71G77PEBCMSZ13`
+  FVaultAssetProxy: `cfxtest:achk35zg4atmba1pp8t4w7w4c2jm71g77pebcmsz13`
 
   * [11SEP22- 1 Years](./pool-info/cDAI-11SEP22.md)
 
