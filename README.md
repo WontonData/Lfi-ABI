@@ -42,6 +42,8 @@
 
 # Tranche&Pool - Info
 ### cDAI
+  Address: `cfxtest:achnwtecdj2fxkndf0rz142fuc8am9uf2udvbb5yff`
+
   FVaultAssetProxy: `TYPE.CONTRACT:ACHK35ZG4ATMBA1PP8T4W7W4C2JM71G77PEBCMSZ13`
 
   * [11SEP22- 1 Years](./pool-info/cDAI-11SEP22.md)

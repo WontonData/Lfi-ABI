@@ -10,6 +10,10 @@
   ```
   cfxtest:acbykf45uwa96f9g6xdmhh7jyt806entae2f7c9heh
   ```
+* ### cDAI: 
+  ```
+  cfxtest:achnwtecdj2fxkndf0rz142fuc8am9uf2udvbb5yff
+  ``` 
 
 ## CCPool-pt
 * Pool Lp : `LP-pcUSDC-11SEP22`
